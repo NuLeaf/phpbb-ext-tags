@@ -1,10 +1,9 @@
-[![Build Status](https://travis-ci.org/RobertHeim/phpbb-ext-topictags.svg?branch=master)](https://travis-ci.org/RobertHeim/phpbb-ext-topictags)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/RobertHeim/phpbb-ext-topictags/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/RobertHeim/phpbb-ext-topictags/?branch=master)
-
-phpbb-ext-topictags
+phpbb-ext-tags
 ===================
 
-phpBB 3.1 extension, that adds the ability to tag topics with key words.
+phpBB 3.1 extension, forked from [RobertHeim/phpbb-ext-topictags](https://github.com/RobertHeim/phpbb-ext-topictags), that adds the ability to tag topics with key words.
+
+This fork aims to add functionality for tagging users in addition to just topic tags and **will probably be optimized for [NuLEAF Technology's](http://nuleaftech.com/) forum**. Plans to implement this for the public are not being considered at the moment.
 
 ## Features
 
@@ -49,7 +48,7 @@ phpBB 3.1 extension, that adds the ability to tag topics with key words.
 ## Installation
 
 ### 1. clone
-Clone (or download an move) the repository into the folder phpBB3/ext/robertheim/topictags:
+Clone (or download and move) the repository into the folder phpBB3/ext/robertheim/topictags:
 
 ```
 cd phpBB3
@@ -57,7 +56,7 @@ git clone https://github.com/RobertHeim/phpbb-ext-topictags.git ext/robertheim/t
 ```
 
 ### 2. activate
-Go to ACP -> tab Customise -> Manage extensions -> enable RH Topic Tags
+Go to ACP -> tab Customise -> Manage extensions -> enable RH Topic Tags  
 Go to ACP -> Forums -> edit/create any forum -> set *Enable RH Topic Tags* to *Yes*
 
 ### 3. configure
